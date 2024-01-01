@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+        
+<script>
+document.onkeydown = function (e) {
+ if(e.keyCode == 123) {
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 73){
+return false;
+}
+if(e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+return false;
+}
+if(e.ctrlKey && e.keyCode == 85) {
+return false;
+}}
+document.addEventListener('contextmenu', function(e) {
+e.preventDefault();
+});</script>
+    
+         <script>
+    window.history.pushState(null, null, window.location.href);
+window.onpopstate = function () {
+    window.history.go(1);
+};
+   </script>
+   
+        <script>
+   response.setHeader("cache-control","no-cache");
+      </script>
+ 
+ <meta charset="utf-8" />
+    <meta charset="Character_Set"/>
+    <link rel="icon" href="loading.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, shrink-to-fit=no">
+    <meta name="author" content="Ali Dehghan">
+    <meta name="description" content="LOADING Page" />
+    <meta property="og:type" content="LOADING" />
+    <meta property="og:title" content="LOADING" />
+    <meta property="og:description" content="LOADING" />
+  <title>LOADING</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+  <div class="loader-outer">
+    <div class="loader-inner">
+      <i class="fa fa-ellipsis-h" aria-hidden="true"></i>
+    </div>
+  </div>
+  <h1><span>LOADING</span></h1>
+</div>
+
+</body>
+</html>
